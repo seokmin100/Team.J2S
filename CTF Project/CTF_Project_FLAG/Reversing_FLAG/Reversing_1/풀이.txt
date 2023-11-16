@@ -1,0 +1,2 @@
+Reversing_1.exe 파일을 x36dbg에 넣은 후 Correct 위치 확인
+Flag 파악

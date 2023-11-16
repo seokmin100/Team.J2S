@@ -1,0 +1,114 @@
+#popup {
+    display: none;
+    color: aliceblue;
+
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+#background {
+	width: 450px;
+	height: 600px;
+    border-radius: 50px;
+
+    background-color: #232323;
+    border: 10px solid #d1d8dd;
+    box-shadow: 0 0 6px 1px rgb(0 0 0 / 30%);
+}
+
+#title {
+    text-align: center;
+
+    position: relative;
+    top: -5%;
+}
+
+#close {
+    border: 0;
+    background-color: transparent;
+    font-size: 30px;
+    color: brown;
+
+    position: relative;
+    top: 9px;
+    left: 90%;
+}
+
+#explanation {
+    position: relative;
+    top: -3%;
+    left: 3%;
+}
+
+#SM {
+    text-decoration-line: underline;
+}
+
+#ctf_link {
+    position: relative;
+    top: -6%;
+    left: 3%;
+}
+
+#ctf_file {
+    position: relative;
+    top: -6%;
+    left: 3%;
+}
+
+#hint {
+    position: relative;
+    top: -2%;
+    left: 3%;
+}
+
+#FLAG {
+    position: relative;
+    top: 1%;
+    left: 3%;
+}
+
+#FLAG input {
+    background-color: #232323;
+    outline: 2px solid aliceblue;
+
+    color: white;
+    font-size: 20px;
+
+    position: relative;
+    top: -10px;
+    left: 2%;
+
+    width: 398px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#line {
+    position: relative;
+    top: 0%;
+}
+
+#ctf_link_l {
+    font-size: 13px;
+}
+
+#ctf_file_l {
+    font-size: 13px;
+}
+
+#hint_link {
+    font-size: 13px;
+}
+
+
+a:link {
+    color : aliceblue;
+  }
+a:visited {
+    color : aliceblue;
+  }
+a:hover {
+    color : #d1d8dd;
+  }

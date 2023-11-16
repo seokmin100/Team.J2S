@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'NanumGothicLight';
+    src: url(/CTF_Project_main/NanumGothicLight.ttf);
+}
+
+@media (max-width: 767px){
+	/* 모바일 */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* 테블릿 세로 */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* 테블릿 가로 */
+}
+
+@media (min-width: 1200px) {
+    /* 데스크탑 일반 */
+}
+
+
+body {
+    font-family: 'NanumGothicLight';
+}
+
+h1 {
+    width: auto;
+    color: aliceblue;
+  }
+  
+header {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#logo_img {
+    position: relative;
+    top: -3px;
+    left: 12px;
+    z-index: 1;
+  }
+  
+  #logo {
+    position: relative;
+    top: -18px;
+    left: 30px;
+  
+    text-decoration: none;
+    color: aliceblue;
+    z-index: 2;
+  }
+  
+  #Home {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+  
+    position: relative;
+    top: -18px;
+    left: 40px;
+    z-index: 2;
+  }
+  
+  #Challenge {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+  
+    position: relative;
+    top: -18px;
+    left: 47px;
+    z-index: 2;
+  }
+  
+  #Login {
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+  
+  
+    position: relative;
+    top: -20px;
+    left: 1300px;
+    z-index: 2;
+  }
+  
+  #Register {
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+  
+    position: relative;
+    top: -20px;
+    left: 1310px;
+    z-index: 2;
+  }
+  
+  #h_line {
+    position: relative;
+    top: -25px;
+    z-index: 2;
+  }
+
+
+#Container {
+    color: aliceblue;
+}
+
+#name {
+    font-size: 80px;
+}
+
+footer {
+  color: white;
+  font-size: 12px;
+
+  position: fixed;
+  top: 95%;
+}
+
+#footer_line {
+  width: 1900px;
+}
